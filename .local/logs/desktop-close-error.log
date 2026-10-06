@@ -1,0 +1,6 @@
+System.IO.FileNotFoundException: Manca scripts\stop.ps1. Mantieni tutte le cartelle insieme a Kass.exe.
+   in KassWindow.<RunScriptAsync>d__42.MoveNext()
+--- Fine traccia dello stack da posizione precedente dove è stata generata l'eccezione ---
+   in System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   in System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   in KassWindow.<OnClosing>d__4b.MoveNext()

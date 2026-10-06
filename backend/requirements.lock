@@ -1,0 +1,31 @@
+# Tested on CPython 3.14 / Windows; every package declares Python 3.12 support.
+# Base uvicorn is intentional: no optional platform-specific uvloop is required.
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+brotli==1.2.0
+certifi==2026.7.22
+charset-normalizer==3.5.2
+click==8.5.0
+fastapi==0.142.2
+h11==0.16.0
+idna==3.20
+mutagen==1.48.1
+opentelemetry-api==1.45.0
+psycopg[binary]==3.3.6
+psycopg-binary==3.3.6
+pydantic==2.13.5
+pydantic-core==2.46.5
+pycryptodomex==3.23.0
+python-multipart==0.0.32
+requests==2.34.2
+SQLAlchemy==2.1.1
+starlette==1.7.0
+typing-inspection==0.4.4
+typing-extensions==4.16.0
+tzdata==2026.4; sys_platform == "win32"
+urllib3==2.8.0
+uvicorn==0.54.0
+websockets==17.1
+yt-dlp[default]==2026.8.19
+yt-dlp-ejs==0.8.0

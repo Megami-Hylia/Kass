@@ -1,0 +1,15 @@
+2026/10/06-19:29:44.578 3788 Reusing MANIFEST C:\Users\Kyani\Documents\Codex\2026-10-01\crea-un-applicazione-musicale-completa-chiamata\outputs\Kass\.local\webview\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/06-19:29:44.579 3788 Recovering log #61
+2026/10/06-19:29:44.583 3788 Reusing old log C:\Users\Kyani\Documents\Codex\2026-10-01\crea-un-applicazione-musicale-completa-chiamata\outputs\Kass\.local\webview\EBWebView\Default\Local Storage\leveldb/000061.log 
+2026/10/06-19:54:44.734 6500 Level-0 table #65: started
+2026/10/06-19:54:44.746 6500 Level-0 table #65: 25571 bytes OK
+2026/10/06-19:54:44.749 6500 Delete type=0 #61
+2026/10/06-19:54:44.749 3788 Compacting 4@0 + 1@1 files
+2026/10/06-19:54:44.755 3788 Generated table #66@0: 4 keys, 1624 bytes
+2026/10/06-19:54:44.755 3788 Compacted 4@0 + 1@1 files => 1624 bytes
+2026/10/06-19:54:44.757 3788 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/06-19:54:44.758 3788 Delete type=2 #56
+2026/10/06-19:54:44.758 3788 Delete type=2 #58
+2026/10/06-19:54:44.758 3788 Delete type=2 #60
+2026/10/06-19:54:44.759 3788 Delete type=2 #62
+2026/10/06-19:54:44.759 3788 Delete type=2 #65

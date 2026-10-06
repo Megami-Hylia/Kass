@@ -1,0 +1,8 @@
+{
+    "private":  true,
+    "name":  "cass-local-postgres",
+    "version":  "1.0.0",
+    "dependencies":  {
+                         "@embedded-postgres/windows-x64":  "17.10.0-beta.17"
+                     }
+}

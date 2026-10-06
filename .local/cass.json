@@ -1,0 +1,7 @@
+{
+    "postgres_password":  "78a74099efe291d1cb3c27ed18f843f0209fb437ef7cd3a0e83705ce9cda7cbd",
+    "app_port":  8765,
+    "postgres_port":  55433,
+    "instance_id":  "ef8cab84c9f6484eb190c63a59803f6c",
+    "youtube_import_enabled":  false
+}

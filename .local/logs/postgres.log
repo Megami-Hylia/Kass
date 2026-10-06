@@ -1,0 +1,367 @@
+2026-10-04 18:33:29.833 CEST [34836] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 18:33:29.834 CEST [34836] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 18:33:29.893 CEST [29904] LOG:  database system was shut down at 2026-10-04 18:31:33 CEST
+2026-10-04 18:33:29.925 CEST [34836] LOG:  database system is ready to accept connections
+2026-10-04 18:33:43.376 CEST [14044] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:33:44.102 CEST [29412] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:33:44.103 CEST [27588] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:33:44.103 CEST [788] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:33:44.103 CEST [21416] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:33:44.103 CEST [5824] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:33:44.591 CEST [34836] LOG:  received fast shutdown request
+2026-10-04 18:33:44.596 CEST [34836] LOG:  aborting any active transactions
+2026-10-04 18:33:44.601 CEST [34836] LOG:  background worker "logical replication launcher" (PID 34280) exited with exit code 1
+2026-10-04 18:33:44.601 CEST [32380] LOG:  shutting down
+2026-10-04 18:33:44.605 CEST [32380] LOG:  checkpoint starting: shutdown immediate
+2026-10-04 18:33:44.631 CEST [32380] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.006 s, total=0.030 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/8335138, redo lsn=0/8335138
+2026-10-04 18:33:44.638 CEST [34836] LOG:  database system is shut down
+2026-10-04 18:34:55.477 CEST [35524] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 18:34:55.478 CEST [35524] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 18:34:55.526 CEST [30636] LOG:  database system was shut down at 2026-10-04 18:33:44 CEST
+2026-10-04 18:34:55.553 CEST [35524] LOG:  database system is ready to accept connections
+2026-10-04 18:35:00.917 CEST [34500] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:35:01.604 CEST [20512] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:35:01.604 CEST [35304] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:35:01.604 CEST [30916] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:35:01.604 CEST [27180] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:35:01.604 CEST [34208] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:35:02.142 CEST [35524] LOG:  received fast shutdown request
+2026-10-04 18:35:02.147 CEST [35524] LOG:  aborting any active transactions
+2026-10-04 18:35:02.153 CEST [35524] LOG:  background worker "logical replication launcher" (PID 28076) exited with exit code 1
+2026-10-04 18:35:02.153 CEST [35828] LOG:  shutting down
+2026-10-04 18:35:02.155 CEST [35828] LOG:  checkpoint starting: shutdown immediate
+2026-10-04 18:35:02.180 CEST [35828] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.006 s, total=0.028 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/83351B0, redo lsn=0/83351B0
+2026-10-04 18:35:02.189 CEST [35524] LOG:  database system is shut down
+2026-10-04 18:37:52.378 CEST [30296] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 18:37:52.379 CEST [30296] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 18:37:52.429 CEST [34332] LOG:  database system was shut down at 2026-10-04 18:35:02 CEST
+2026-10-04 18:37:52.459 CEST [30296] LOG:  database system is ready to accept connections
+2026-10-04 18:39:13.730 CEST [29412] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:39:14.419 CEST [33576] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:39:14.419 CEST [15776] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:39:14.420 CEST [32296] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:39:14.420 CEST [9556] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:39:14.420 CEST [26348] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:39:14.828 CEST [30296] LOG:  received fast shutdown request
+2026-10-04 18:39:14.832 CEST [30296] LOG:  aborting any active transactions
+2026-10-04 18:39:14.837 CEST [30296] LOG:  background worker "logical replication launcher" (PID 34984) exited with exit code 1
+2026-10-04 18:39:14.838 CEST [1772] LOG:  shutting down
+2026-10-04 18:39:14.840 CEST [1772] LOG:  checkpoint starting: shutdown immediate
+2026-10-04 18:39:14.862 CEST [1772] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.005 s, total=0.025 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/8335260, redo lsn=0/8335260
+2026-10-04 18:39:14.870 CEST [30296] LOG:  database system is shut down
+2026-10-04 18:50:01.249 CEST [25740] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 18:50:01.250 CEST [25740] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 18:50:01.294 CEST [35520] LOG:  database system was shut down at 2026-10-04 18:39:14 CEST
+2026-10-04 18:50:01.320 CEST [25740] LOG:  database system is ready to accept connections
+2026-10-04 18:50:30.861 CEST [4324] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:50:31.476 CEST [26596] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:50:31.477 CEST [33340] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:50:31.477 CEST [6200] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:50:31.477 CEST [5412] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:50:31.477 CEST [30136] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:50:31.870 CEST [25740] LOG:  received fast shutdown request
+2026-10-04 18:50:31.874 CEST [25740] LOG:  aborting any active transactions
+2026-10-04 18:50:31.879 CEST [25740] LOG:  background worker "logical replication launcher" (PID 26548) exited with exit code 1
+2026-10-04 18:50:31.879 CEST [35256] LOG:  shutting down
+2026-10-04 18:50:31.882 CEST [35256] LOG:  checkpoint starting: shutdown immediate
+2026-10-04 18:50:31.904 CEST [35256] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.006 s, total=0.025 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/8335310, redo lsn=0/8335310
+2026-10-04 18:50:31.912 CEST [25740] LOG:  database system is shut down
+2026-10-04 18:55:52.803 CEST [13528] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 18:55:52.804 CEST [13528] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 18:55:52.855 CEST [32812] LOG:  database system was shut down at 2026-10-04 18:50:31 CEST
+2026-10-04 18:55:52.884 CEST [13528] LOG:  database system is ready to accept connections
+2026-10-04 18:59:40.583 CEST [35984] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:41.470 CEST [21540] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:41.470 CEST [18700] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:41.470 CEST [27932] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:41.470 CEST [32252] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:41.470 CEST [11156] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:42.068 CEST [13528] LOG:  received fast shutdown request
+2026-10-04 18:59:42.075 CEST [13528] LOG:  aborting any active transactions
+2026-10-04 18:59:42.082 CEST [13528] LOG:  background worker "logical replication launcher" (PID 21284) exited with exit code 1
+2026-10-04 18:59:42.082 CEST [33232] LOG:  shutting down
+2026-10-04 18:59:42.086 CEST [33232] LOG:  checkpoint starting: shutdown immediate
+2026-10-04 18:59:42.133 CEST [33232] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.010 s, sync=0.021 s, total=0.051 s; sync files=9, longest=0.003 s, average=0.003 s; distance=22 kB, estimate=22 kB; lsn=0/833AC28, redo lsn=0/833AC28
+2026-10-04 18:59:42.146 CEST [13528] LOG:  database system is shut down
+2026-10-04 18:59:49.581 CEST [27280] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 18:59:49.582 CEST [27280] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 18:59:49.639 CEST [26272] LOG:  database system was shut down at 2026-10-04 18:59:42 CEST
+2026-10-04 18:59:49.674 CEST [27280] LOG:  database system is ready to accept connections
+2026-10-04 18:59:54.435 CEST [16568] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:55.391 CEST [32512] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-04 18:59:55.883 CEST [27280] LOG:  received fast shutdown request
+2026-10-04 18:59:55.888 CEST [27280] LOG:  aborting any active transactions
+2026-10-04 18:59:55.893 CEST [27280] LOG:  background worker "logical replication launcher" (PID 35424) exited with exit code 1
+2026-10-04 18:59:55.894 CEST [32520] LOG:  shutting down
+2026-10-04 18:59:55.896 CEST [32520] LOG:  checkpoint starting: shutdown immediate
+2026-10-04 18:59:55.921 CEST [32520] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.006 s, total=0.028 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/833ACA0, redo lsn=0/833ACA0
+2026-10-04 18:59:55.929 CEST [27280] LOG:  database system is shut down
+2026-10-04 19:41:35.984 CEST [27780] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-04 19:41:35.985 CEST [27780] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-04 19:41:36.056 CEST [36236] LOG:  database system was shut down at 2026-10-04 18:59:55 CEST
+2026-10-04 19:41:36.091 CEST [27780] LOG:  database system is ready to accept connections
+2026-10-04 19:46:36.041 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 19:46:39.175 CEST [3544] LOG:  checkpoint complete: wrote 31 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.073 s, sync=0.046 s, total=3.134 s; sync files=20, longest=0.006 s, average=0.003 s; distance=384 kB, estimate=384 kB; lsn=0/839AD98, redo lsn=0/839AD40
+2026-10-04 19:56:36.195 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 19:56:37.120 CEST [3544] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.882 s, sync=0.028 s, total=0.925 s; sync files=9, longest=0.011 s, average=0.004 s; distance=30 kB, estimate=348 kB; lsn=0/83A2728, redo lsn=0/83A26D0
+2026-10-04 20:01:36.134 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 20:01:36.940 CEST [3544] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.759 s, sync=0.025 s, total=0.807 s; sync files=8, longest=0.012 s, average=0.004 s; distance=26 kB, estimate=316 kB; lsn=0/83A8F30, redo lsn=0/83A8ED8
+2026-10-04 20:06:36.954 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 20:06:37.764 CEST [3544] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.026 s, total=0.811 s; sync files=8, longest=0.011 s, average=0.004 s; distance=27 kB, estimate=287 kB; lsn=0/83AFEA8, redo lsn=0/83AFE50
+2026-10-04 20:11:36.775 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 20:11:37.585 CEST [3544] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.026 s, total=0.811 s; sync files=8, longest=0.012 s, average=0.004 s; distance=22 kB, estimate=261 kB; lsn=0/83B5A10, redo lsn=0/83B59B8
+2026-10-04 20:16:36.585 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 20:16:37.402 CEST [3544] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.772 s, sync=0.030 s, total=0.817 s; sync files=8, longest=0.011 s, average=0.004 s; distance=27 kB, estimate=237 kB; lsn=0/83BC670, redo lsn=0/83BC5E0
+2026-10-04 20:21:36.402 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 20:21:37.211 CEST [3544] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.026 s, total=0.810 s; sync files=8, longest=0.011 s, average=0.004 s; distance=30 kB, estimate=216 kB; lsn=0/83C3EA0, redo lsn=0/83C3E48
+2026-10-04 21:56:36.369 CEST [3544] LOG:  checkpoint starting: time
+2026-10-04 21:56:37.179 CEST [3544] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.764 s, sync=0.024 s, total=0.811 s; sync files=8, longest=0.011 s, average=0.003 s; distance=26 kB, estimate=197 kB; lsn=0/83CA6E8, redo lsn=0/83CA690
+2026-10-05 00:13:27.817 CEST [17968] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 00:13:28.476 CEST [22012] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 00:13:28.477 CEST [36068] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 00:13:28.477 CEST [15740] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 00:13:28.477 CEST [34872] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 00:13:28.477 CEST [28008] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 00:13:28.845 CEST [27780] LOG:  received fast shutdown request
+2026-10-05 00:13:28.849 CEST [27780] LOG:  aborting any active transactions
+2026-10-05 00:13:28.857 CEST [27780] LOG:  background worker "logical replication launcher" (PID 25592) exited with exit code 1
+2026-10-05 00:13:28.857 CEST [3544] LOG:  shutting down
+2026-10-05 00:13:28.860 CEST [3544] LOG:  checkpoint starting: shutdown immediate
+2026-10-05 00:13:28.876 CEST [3544] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.019 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=178 kB; lsn=0/83CA798, redo lsn=0/83CA798
+2026-10-05 00:13:28.886 CEST [27780] LOG:  database system is shut down
+2026-10-05 10:48:35.573 CEST [4440] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-05 10:48:35.574 CEST [4440] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-05 10:48:35.628 CEST [11120] LOG:  database system was shut down at 2026-10-05 00:13:28 CEST
+2026-10-05 10:48:35.660 CEST [4440] LOG:  database system is ready to accept connections
+2026-10-05 10:53:35.619 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 10:53:36.535 CEST [17388] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.881 s, sync=0.021 s, total=0.917 s; sync files=10, longest=0.003 s, average=0.003 s; distance=26 kB, estimate=26 kB; lsn=0/83D1188, redo lsn=0/83D10F8
+2026-10-05 11:18:35.565 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 11:18:36.489 CEST [17388] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.882 s, sync=0.015 s, total=0.924 s; sync files=8, longest=0.003 s, average=0.002 s; distance=47 kB, estimate=47 kB; lsn=0/83DD110, redo lsn=0/83DD0B8
+2026-10-05 11:23:35.489 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 11:23:36.972 CEST [17388] LOG:  checkpoint complete: wrote 14 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.426 s, sync=0.035 s, total=1.484 s; sync files=13, longest=0.012 s, average=0.003 s; distance=52 kB, estimate=52 kB; lsn=0/83EA310, redo lsn=0/83EA2B8
+2026-10-05 11:28:35.984 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 11:28:37.129 CEST [17388] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.093 s, sync=0.030 s, total=1.146 s; sync files=10, longest=0.012 s, average=0.003 s; distance=48 kB, estimate=52 kB; lsn=0/83F6340, redo lsn=0/83F62E8
+2026-10-05 11:33:35.136 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 11:33:36.048 CEST [17388] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.882 s, sync=0.017 s, total=0.913 s; sync files=9, longest=0.003 s, average=0.002 s; distance=40 kB, estimate=50 kB; lsn=0/8400448, redo lsn=0/84003F0
+2026-10-05 11:38:35.059 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 11:38:35.858 CEST [17388] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.015 s, total=0.799 s; sync files=8, longest=0.003 s, average=0.002 s; distance=34 kB, estimate=49 kB; lsn=0/8408D78, redo lsn=0/8408D20
+2026-10-05 12:53:35.992 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 12:53:36.792 CEST [17388] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.764 s, sync=0.017 s, total=0.801 s; sync files=8, longest=0.003 s, average=0.003 s; distance=35 kB, estimate=47 kB; lsn=0/8411CB8, redo lsn=0/8411C60
+2026-10-05 12:58:35.801 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 12:58:37.173 CEST [17388] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.319 s, sync=0.024 s, total=1.372 s; sync files=8, longest=0.011 s, average=0.003 s; distance=47 kB, estimate=47 kB; lsn=0/841DAA8, redo lsn=0/841DA50
+2026-10-05 15:08:35.399 CEST [17388] LOG:  checkpoint starting: time
+2026-10-05 15:08:36.312 CEST [17388] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.877 s, sync=0.017 s, total=0.914 s; sync files=8, longest=0.003 s, average=0.003 s; distance=33 kB, estimate=46 kB; lsn=0/8426158, redo lsn=0/8426100
+2026-10-05 18:28:53.034 CEST [25416] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 18:28:53.827 CEST [24368] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 18:28:53.827 CEST [6220] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 18:28:53.827 CEST [12112] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 18:28:53.828 CEST [11692] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 18:28:53.828 CEST [11204] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 18:28:54.381 CEST [4440] LOG:  received fast shutdown request
+2026-10-05 18:28:54.385 CEST [4440] LOG:  aborting any active transactions
+2026-10-05 18:28:54.393 CEST [4440] LOG:  background worker "logical replication launcher" (PID 16848) exited with exit code 1
+2026-10-05 18:28:54.394 CEST [17388] LOG:  shutting down
+2026-10-05 18:28:54.396 CEST [17388] LOG:  checkpoint starting: shutdown immediate
+2026-10-05 18:28:54.414 CEST [17388] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.003 s, total=0.021 s; sync files=1, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=41 kB; lsn=0/8426208, redo lsn=0/8426208
+2026-10-05 18:28:54.428 CEST [4440] LOG:  database system is shut down
+2026-10-05 20:45:17.429 CEST [28624] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-05 20:45:17.434 CEST [28624] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-05 20:45:17.536 CEST [13996] LOG:  database system was shut down at 2026-10-05 18:28:54 CEST
+2026-10-05 20:45:17.586 CEST [28624] LOG:  database system is ready to accept connections
+2026-10-05 20:50:17.531 CEST [36640] LOG:  checkpoint starting: time
+2026-10-05 20:50:18.244 CEST [36640] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.663 s, sync=0.024 s, total=0.714 s; sync files=8, longest=0.008 s, average=0.003 s; distance=24 kB, estimate=24 kB; lsn=0/842C5C8, redo lsn=0/842C570
+2026-10-05 21:59:29.640 CEST [5848] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 21:59:30.234 CEST [5408] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 21:59:30.234 CEST [24036] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 21:59:30.234 CEST [32588] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 21:59:30.234 CEST [33632] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 21:59:30.234 CEST [36392] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 21:59:30.596 CEST [28624] LOG:  received fast shutdown request
+2026-10-05 21:59:30.600 CEST [28624] LOG:  aborting any active transactions
+2026-10-05 21:59:30.605 CEST [28624] LOG:  background worker "logical replication launcher" (PID 36408) exited with exit code 1
+2026-10-05 21:59:30.605 CEST [36640] LOG:  shutting down
+2026-10-05 21:59:30.608 CEST [36640] LOG:  checkpoint starting: shutdown immediate
+2026-10-05 21:59:30.624 CEST [36640] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.020 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=22 kB; lsn=0/842C678, redo lsn=0/842C678
+2026-10-05 21:59:30.632 CEST [28624] LOG:  database system is shut down
+2026-10-05 21:59:51.400 CEST [10992] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-05 21:59:51.401 CEST [10992] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-05 21:59:51.444 CEST [14144] LOG:  database system was shut down at 2026-10-05 21:59:30 CEST
+2026-10-05 21:59:51.469 CEST [10992] LOG:  database system is ready to accept connections
+2026-10-05 22:03:18.976 CEST [31092] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:03:18.976 CEST [1972] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:03:18.977 CEST [12100] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:03:18.977 CEST [10832] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:03:18.977 CEST [16136] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:04:51.439 CEST [25384] LOG:  checkpoint starting: time
+2026-10-05 22:04:52.138 CEST [25384] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.659 s, sync=0.025 s, total=0.700 s; sync files=8, longest=0.011 s, average=0.004 s; distance=25 kB, estimate=25 kB; lsn=0/8432B38, redo lsn=0/8432AE0
+2026-10-05 22:09:51.138 CEST [25384] LOG:  checkpoint starting: time
+2026-10-05 22:09:51.950 CEST [25384] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.763 s, sync=0.027 s, total=0.813 s; sync files=8, longest=0.012 s, average=0.004 s; distance=29 kB, estimate=29 kB; lsn=0/843A0F0, redo lsn=0/843A098
+2026-10-05 22:14:51.956 CEST [25384] LOG:  checkpoint starting: time
+2026-10-05 22:14:52.760 CEST [25384] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.757 s, sync=0.025 s, total=0.805 s; sync files=8, longest=0.012 s, average=0.004 s; distance=31 kB, estimate=31 kB; lsn=0/8441F98, redo lsn=0/8441F40
+2026-10-05 22:15:34.039 CEST [35996] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:15:34.039 CEST [22900] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:15:34.039 CEST [17896] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:15:34.039 CEST [10028] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:16:49.486 CEST [24408] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-05 22:16:49.887 CEST [10992] LOG:  received fast shutdown request
+2026-10-05 22:16:49.891 CEST [10992] LOG:  aborting any active transactions
+2026-10-05 22:16:49.896 CEST [10992] LOG:  background worker "logical replication launcher" (PID 26452) exited with exit code 1
+2026-10-05 22:16:49.896 CEST [25384] LOG:  shutting down
+2026-10-05 22:16:49.899 CEST [25384] LOG:  checkpoint starting: shutdown immediate
+2026-10-05 22:16:49.913 CEST [25384] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.017 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=28 kB; lsn=0/8442060, redo lsn=0/8442060
+2026-10-05 22:16:49.921 CEST [10992] LOG:  database system is shut down
+2026-10-05 22:16:54.510 CEST [23588] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-05 22:16:54.511 CEST [23588] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-05 22:16:54.556 CEST [9736] LOG:  database system was shut down at 2026-10-05 22:16:49 CEST
+2026-10-05 22:16:54.581 CEST [23588] LOG:  database system is ready to accept connections
+2026-10-05 22:21:54.549 CEST [34476] LOG:  checkpoint starting: time
+2026-10-05 22:21:55.705 CEST [34476] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.102 s, sync=0.031 s, total=1.157 s; sync files=11, longest=0.011 s, average=0.003 s; distance=43 kB, estimate=43 kB; lsn=0/844CE20, redo lsn=0/844CDC8
+2026-10-05 22:26:54.708 CEST [34476] LOG:  checkpoint starting: time
+2026-10-05 22:26:55.624 CEST [34476] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.877 s, sync=0.026 s, total=0.917 s; sync files=8, longest=0.012 s, average=0.004 s; distance=26 kB, estimate=41 kB; lsn=0/84537F8, redo lsn=0/8453768
+2026-10-05 22:31:54.627 CEST [34476] LOG:  checkpoint starting: time
+2026-10-05 22:31:55.425 CEST [34476] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.768 s, sync=0.017 s, total=0.798 s; sync files=8, longest=0.003 s, average=0.003 s; distance=33 kB, estimate=40 kB; lsn=0/845BC48, redo lsn=0/845BBF0
+2026-10-06 01:21:54.565 CEST [34476] LOG:  checkpoint starting: time
+2026-10-06 01:21:55.723 CEST [34476] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.102 s, sync=0.028 s, total=1.159 s; sync files=9, longest=0.013 s, average=0.004 s; distance=29 kB, estimate=39 kB; lsn=0/8463358, redo lsn=0/8463300
+2026-10-06 01:28:55.379 CEST [34308] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 01:28:55.850 CEST [35708] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 01:28:55.850 CEST [35988] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 01:28:55.850 CEST [17776] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 01:28:55.850 CEST [35428] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 01:28:55.850 CEST [29800] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 01:28:56.242 CEST [23588] LOG:  received fast shutdown request
+2026-10-06 01:28:56.245 CEST [23588] LOG:  aborting any active transactions
+2026-10-06 01:28:56.251 CEST [23588] LOG:  background worker "logical replication launcher" (PID 31304) exited with exit code 1
+2026-10-06 01:28:56.251 CEST [34476] LOG:  shutting down
+2026-10-06 01:28:56.255 CEST [34476] LOG:  checkpoint starting: shutdown immediate
+2026-10-06 01:28:56.268 CEST [34476] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.018 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=35 kB; lsn=0/8463408, redo lsn=0/8463408
+2026-10-06 01:28:56.276 CEST [23588] LOG:  database system is shut down
+2026-10-06 10:49:40.765 CEST [32448] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-06 10:49:40.768 CEST [32448] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-06 10:49:40.860 CEST [32616] LOG:  database system was shut down at 2026-10-06 01:28:56 CEST
+2026-10-06 10:49:40.919 CEST [32448] LOG:  database system is ready to accept connections
+2026-10-06 10:54:40.950 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 10:54:41.990 CEST [30124] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.985 s, sync=0.025 s, total=1.040 s; sync files=10, longest=0.004 s, average=0.003 s; distance=38 kB, estimate=38 kB; lsn=0/846CFA0, redo lsn=0/846CF48
+2026-10-06 10:59:41.002 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 10:59:41.811 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.768 s, sync=0.025 s, total=0.810 s; sync files=8, longest=0.012 s, average=0.004 s; distance=32 kB, estimate=38 kB; lsn=0/84751F8, redo lsn=0/84751A0
+2026-10-06 11:04:41.820 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 11:04:42.642 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.773 s, sync=0.025 s, total=0.823 s; sync files=8, longest=0.011 s, average=0.004 s; distance=30 kB, estimate=37 kB; lsn=0/847CCD8, redo lsn=0/847CC80
+2026-10-06 11:09:41.644 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 11:09:42.459 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.773 s, sync=0.017 s, total=0.815 s; sync files=8, longest=0.004 s, average=0.003 s; distance=32 kB, estimate=36 kB; lsn=0/8484DB0, redo lsn=0/8484D58
+2026-10-06 11:14:41.468 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 11:14:42.492 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.917 s, sync=0.026 s, total=1.024 s; sync files=8, longest=0.007 s, average=0.004 s; distance=42 kB, estimate=42 kB; lsn=0/848F7F8, redo lsn=0/848F7A0
+2026-10-06 11:19:41.500 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 11:19:42.321 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.770 s, sync=0.025 s, total=0.822 s; sync files=8, longest=0.012 s, average=0.004 s; distance=35 kB, estimate=41 kB; lsn=0/8498748, redo lsn=0/84986F0
+2026-10-06 13:34:41.525 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 13:34:42.351 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.774 s, sync=0.024 s, total=0.826 s; sync files=8, longest=0.011 s, average=0.003 s; distance=37 kB, estimate=41 kB; lsn=0/84A1C78, redo lsn=0/84A1C20
+2026-10-06 13:39:41.352 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 13:39:42.268 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.869 s, sync=0.024 s, total=0.916 s; sync files=8, longest=0.011 s, average=0.003 s; distance=42 kB, estimate=42 kB; lsn=0/84AC5D8, redo lsn=0/84AC580
+2026-10-06 13:44:41.275 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 13:44:42.406 CEST [30124] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.085 s, sync=0.024 s, total=1.132 s; sync files=8, longest=0.011 s, average=0.003 s; distance=27 kB, estimate=40 kB; lsn=0/84B34D8, redo lsn=0/84B3480
+2026-10-06 13:49:41.414 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 13:49:42.331 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.869 s, sync=0.024 s, total=0.918 s; sync files=8, longest=0.011 s, average=0.003 s; distance=32 kB, estimate=40 kB; lsn=0/84BB828, redo lsn=0/84BB7D0
+2026-10-06 13:54:41.333 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 13:54:42.245 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.864 s, sync=0.024 s, total=0.912 s; sync files=8, longest=0.011 s, average=0.003 s; distance=35 kB, estimate=39 kB; lsn=0/84C47A0, redo lsn=0/84C4748
+2026-10-06 13:59:41.248 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 13:59:42.276 CEST [30124] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.975 s, sync=0.029 s, total=1.028 s; sync files=10, longest=0.012 s, average=0.003 s; distance=36 kB, estimate=39 kB; lsn=0/84CD960, redo lsn=0/84CD908
+2026-10-06 14:04:41.288 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 14:04:42.207 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.877 s, sync=0.028 s, total=0.919 s; sync files=9, longest=0.012 s, average=0.004 s; distance=38 kB, estimate=39 kB; lsn=0/84D73D0, redo lsn=0/84D7378
+2026-10-06 14:09:41.209 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 14:09:42.018 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.769 s, sync=0.027 s, total=0.809 s; sync files=8, longest=0.012 s, average=0.004 s; distance=28 kB, estimate=38 kB; lsn=0/84DE590, redo lsn=0/84DE538
+2026-10-06 14:14:41.027 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 14:14:41.933 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.868 s, sync=0.016 s, total=0.907 s; sync files=8, longest=0.004 s, average=0.002 s; distance=38 kB, estimate=38 kB; lsn=0/84E80A8, redo lsn=0/84E8050
+2026-10-06 14:19:41.934 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 14:19:43.740 CEST [30124] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.753 s, sync=0.027 s, total=1.806 s; sync files=14, longest=0.003 s, average=0.002 s; distance=69 kB, estimate=69 kB; lsn=0/84F97A8, redo lsn=0/84F9750
+2026-10-06 14:24:41.744 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 14:24:42.768 CEST [30124] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.978 s, sync=0.025 s, total=1.025 s; sync files=8, longest=0.012 s, average=0.004 s; distance=41 kB, estimate=66 kB; lsn=0/8503ED0, redo lsn=0/8503E78
+2026-10-06 17:49:42.086 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 17:49:43.223 CEST [30124] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.092 s, sync=0.026 s, total=1.138 s; sync files=8, longest=0.012 s, average=0.004 s; distance=35 kB, estimate=63 kB; lsn=0/850CDD8, redo lsn=0/850CD80
+2026-10-06 17:54:42.237 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 17:54:43.256 CEST [30124] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.988 s, sync=0.016 s, total=1.019 s; sync files=8, longest=0.003 s, average=0.002 s; distance=39 kB, estimate=61 kB; lsn=0/8516D40, redo lsn=0/8516CE8
+2026-10-06 17:59:42.270 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 17:59:43.069 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.762 s, sync=0.015 s, total=0.800 s; sync files=8, longest=0.002 s, average=0.002 s; distance=27 kB, estimate=58 kB; lsn=0/851DCF8, redo lsn=0/851DCA0
+2026-10-06 18:04:42.080 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:04:42.883 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.773 s, sync=0.017 s, total=0.804 s; sync files=8, longest=0.003 s, average=0.003 s; distance=30 kB, estimate=55 kB; lsn=0/8525730, redo lsn=0/85256D8
+2026-10-06 18:09:42.887 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:09:44.023 CEST [30124] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.096 s, sync=0.026 s, total=1.136 s; sync files=8, longest=0.011 s, average=0.004 s; distance=36 kB, estimate=53 kB; lsn=0/852E950, redo lsn=0/852E8F8
+2026-10-06 18:14:42.025 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:14:43.152 CEST [30124] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.090 s, sync=0.014 s, total=1.128 s; sync files=8, longest=0.002 s, average=0.002 s; distance=31 kB, estimate=51 kB; lsn=0/8536818, redo lsn=0/85367C0
+2026-10-06 18:19:42.155 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:19:42.963 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.760 s, sync=0.025 s, total=0.809 s; sync files=8, longest=0.012 s, average=0.004 s; distance=23 kB, estimate=48 kB; lsn=0/853C5C0, redo lsn=0/853C568
+2026-10-06 18:24:42.975 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:24:44.109 CEST [30124] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.096 s, sync=0.016 s, total=1.134 s; sync files=8, longest=0.003 s, average=0.002 s; distance=32 kB, estimate=46 kB; lsn=0/8544900, redo lsn=0/8544870
+2026-10-06 18:29:42.124 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:29:42.932 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.767 s, sync=0.025 s, total=0.809 s; sync files=8, longest=0.012 s, average=0.004 s; distance=28 kB, estimate=45 kB; lsn=0/854B9F0, redo lsn=0/854B998
+2026-10-06 18:34:42.934 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:34:43.842 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.870 s, sync=0.015 s, total=0.908 s; sync files=8, longest=0.003 s, average=0.002 s; distance=27 kB, estimate=43 kB; lsn=0/8552710, redo lsn=0/85526B8
+2026-10-06 18:39:42.853 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:39:43.651 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.760 s, sync=0.015 s, total=0.799 s; sync files=8, longest=0.003 s, average=0.002 s; distance=27 kB, estimate=41 kB; lsn=0/8559518, redo lsn=0/85594C0
+2026-10-06 18:44:42.664 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:44:43.464 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.762 s, sync=0.016 s, total=0.801 s; sync files=8, longest=0.003 s, average=0.002 s; distance=23 kB, estimate=39 kB; lsn=0/855F1C0, redo lsn=0/855F168
+2026-10-06 18:49:42.474 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:49:43.295 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.770 s, sync=0.026 s, total=0.821 s; sync files=8, longest=0.012 s, average=0.004 s; distance=23 kB, estimate=38 kB; lsn=0/8564E00, redo lsn=0/8564DA8
+2026-10-06 18:54:42.297 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:54:43.107 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.027 s, total=0.810 s; sync files=8, longest=0.012 s, average=0.004 s; distance=27 kB, estimate=37 kB; lsn=0/856BD78, redo lsn=0/856BD20
+2026-10-06 18:59:42.121 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 18:59:43.244 CEST [30124] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.084 s, sync=0.016 s, total=1.124 s; sync files=8, longest=0.003 s, average=0.002 s; distance=38 kB, estimate=38 kB; lsn=0/85758A0, redo lsn=0/8575810
+2026-10-06 19:04:42.257 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 19:04:43.054 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.758 s, sync=0.015 s, total=0.797 s; sync files=8, longest=0.003 s, average=0.002 s; distance=27 kB, estimate=37 kB; lsn=0/857C6E8, redo lsn=0/857C690
+2026-10-06 19:09:42.068 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 19:09:43.082 CEST [30124] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.975 s, sync=0.015 s, total=1.015 s; sync files=8, longest=0.003 s, average=0.002 s; distance=37 kB, estimate=37 kB; lsn=0/8585B60, redo lsn=0/8585B08
+2026-10-06 19:14:42.094 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 19:14:42.894 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.771 s, sync=0.015 s, total=0.801 s; sync files=8, longest=0.003 s, average=0.002 s; distance=24 kB, estimate=36 kB; lsn=0/858BE00, redo lsn=0/858BDA8
+2026-10-06 19:19:42.907 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 19:19:43.826 CEST [30124] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.880 s, sync=0.025 s, total=0.920 s; sync files=8, longest=0.011 s, average=0.004 s; distance=33 kB, estimate=36 kB; lsn=0/8594410, redo lsn=0/85943B8
+2026-10-06 19:24:42.827 CEST [30124] LOG:  checkpoint starting: time
+2026-10-06 19:24:43.636 CEST [30124] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.759 s, sync=0.026 s, total=0.809 s; sync files=8, longest=0.012 s, average=0.004 s; distance=26 kB, estimate=35 kB; lsn=0/859AE20, redo lsn=0/859ADC8
+2026-10-06 19:28:40.425 CEST [32448] LOG:  server process (PID 33644) was terminated by exception 0x40010004
+2026-10-06 19:28:40.425 CEST [32448] DETAIL:  Failed process was running: SELECT tracks.id, tracks.user_id, tracks.title, tracks.artist, tracks.duration, tracks.cover_url, tracks.favorite, tracks.source, tracks.is_demo, tracks.filename, tracks.sha256, tracks.youtube_id, tracks.created_at 
+	FROM tracks 
+	WHERE tracks.id = $1::VARCHAR AND tracks.user_id = $2::VARCHAR
+2026-10-06 19:28:40.425 CEST [32448] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-10-06 19:28:40.425 CEST [32448] LOG:  terminating any other active server processes
+2026-10-06 19:28:40.464 CEST [32448] LOG:  all server processes terminated; reinitializing
+2026-10-06 19:28:40.716 CEST [32448] LOG:  shutting down due to startup process failure
+2026-10-06 19:28:40.720 CEST [32448] LOG:  database system is shut down
+2026-10-06 19:29:32.822 CEST [22092] LOG:  starting PostgreSQL 17.10 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+2026-10-06 19:29:32.823 CEST [22092] LOG:  listening on IPv4 address "127.0.0.1", port 55433
+2026-10-06 19:29:32.991 CEST [22236] LOG:  database system was interrupted; last known up at 2026-10-06 19:24:43 CEST
+2026-10-06 19:29:39.321 CEST [22236] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-10-06 19:29:39.328 CEST [22236] LOG:  redo starts at 0/859ADC8
+2026-10-06 19:29:39.336 CEST [22236] LOG:  invalid record length at 0/85A2B60: expected at least 24, got 0
+2026-10-06 19:29:39.336 CEST [22236] LOG:  redo done at 0/85A2B28 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-10-06 19:29:39.342 CEST [22232] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-10-06 19:29:39.384 CEST [22232] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.021 s, total=0.045 s; sync files=10, longest=0.003 s, average=0.003 s; distance=31 kB, estimate=31 kB; lsn=0/85A2B60, redo lsn=0/85A2B60
+2026-10-06 19:29:39.413 CEST [22092] LOG:  database system is ready to accept connections
+2026-10-06 19:34:39.392 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 19:34:40.318 CEST [22232] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.881 s, sync=0.018 s, total=0.927 s; sync files=8, longest=0.004 s, average=0.003 s; distance=35 kB, estimate=35 kB; lsn=0/85AB9A0, redo lsn=0/85AB948
+2026-10-06 19:39:39.328 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 19:39:40.138 CEST [22232] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.777 s, sync=0.017 s, total=0.810 s; sync files=8, longest=0.003 s, average=0.003 s; distance=32 kB, estimate=35 kB; lsn=0/85B3CF8, redo lsn=0/85B3C68
+2026-10-06 19:44:39.150 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 19:44:40.181 CEST [22232] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.989 s, sync=0.015 s, total=1.031 s; sync files=8, longest=0.003 s, average=0.002 s; distance=32 kB, estimate=34 kB; lsn=0/85BBE58, redo lsn=0/85BBE00
+2026-10-06 19:49:39.183 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 19:49:39.997 CEST [22232] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.766 s, sync=0.026 s, total=0.815 s; sync files=8, longest=0.011 s, average=0.004 s; distance=32 kB, estimate=34 kB; lsn=0/85C4070, redo lsn=0/85C4018
+2026-10-06 19:54:40.004 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 19:54:40.803 CEST [22232] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.766 s, sync=0.018 s, total=0.799 s; sync files=8, longest=0.005 s, average=0.003 s; distance=28 kB, estimate=34 kB; lsn=0/85CB3B8, redo lsn=0/85CB360
+2026-10-06 19:59:40.813 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 19:59:41.609 CEST [22232] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.766 s, sync=0.015 s, total=0.796 s; sync files=8, longest=0.003 s, average=0.002 s; distance=22 kB, estimate=32 kB; lsn=0/85D0F38, redo lsn=0/85D0EA8
+2026-10-06 20:04:40.621 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 20:04:41.635 CEST [22232] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.977 s, sync=0.024 s, total=1.014 s; sync files=8, longest=0.012 s, average=0.003 s; distance=39 kB, estimate=39 kB; lsn=0/85DAC58, redo lsn=0/85DAC00
+2026-10-06 20:09:40.645 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 20:09:41.447 CEST [22232] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.771 s, sync=0.017 s, total=0.803 s; sync files=8, longest=0.003 s, average=0.003 s; distance=34 kB, estimate=38 kB; lsn=0/85E3650, redo lsn=0/85E35F8
+2026-10-06 20:14:40.458 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 20:14:41.372 CEST [22232] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.865 s, sync=0.026 s, total=0.914 s; sync files=8, longest=0.011 s, average=0.004 s; distance=31 kB, estimate=38 kB; lsn=0/85EB3C8, redo lsn=0/85EB370
+2026-10-06 20:19:40.379 CEST [22232] LOG:  checkpoint starting: time
+2026-10-06 20:19:41.175 CEST [22232] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.758 s, sync=0.015 s, total=0.796 s; sync files=8, longest=0.003 s, average=0.002 s; distance=33 kB, estimate=37 kB; lsn=0/85F3990, redo lsn=0/85F3938
+2026-10-06 21:22:20.412 CEST [25536] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 21:22:20.868 CEST [25284] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 21:22:20.868 CEST [25392] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 21:22:20.868 CEST [23772] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 21:22:20.868 CEST [2576] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 21:22:20.868 CEST [4792] LOG:  could not receive data from client: unrecognized winsock error 10054
+2026-10-06 21:22:21.226 CEST [22092] LOG:  received fast shutdown request
+2026-10-06 21:22:21.230 CEST [22092] LOG:  aborting any active transactions
+2026-10-06 21:22:21.235 CEST [22092] LOG:  background worker "logical replication launcher" (PID 7816) exited with exit code 1
+2026-10-06 21:22:21.235 CEST [22232] LOG:  shutting down
+2026-10-06 21:22:21.238 CEST [22232] LOG:  checkpoint starting: shutdown immediate
+2026-10-06 21:22:21.259 CEST [22232] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.025 s; sync files=1, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=33 kB; lsn=0/85F3A40, redo lsn=0/85F3A40
+2026-10-06 21:22:21.266 CEST [22092] LOG:  database system is shut down

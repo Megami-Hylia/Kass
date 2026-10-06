@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: transparent;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+}
+
+.widget {
+  width: 400px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 14px;
+
+  padding: 12px 14px;
+
+  border-radius: 19px;
+
+  background: linear-gradient(135deg, #983dce, #150b27);
+
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+
+  box-sizing: border-box;
+
+  transition: background 0.35s ease;
+
+  overflow: visible;
+}
+
+#cover {
+  width: 114px;
+  height: 114px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+
+  flex-shrink: 0;
+
+  display: none;
+
+  margin-top: -46px;
+
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  text-align: right;
+}
+
+.text-block {
+  width: 100%;
+  min-width: 0;
+
+  text-align: right;
+}
+
+.scroll-mask {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+}
+
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  transform: translateX(0);
+}
+
+.scroll-text.scrolling {
+  animation: marquee var(--scroll-duration, 8s) ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  45%, 55% {
+    transform: translateX(calc(var(--scroll-distance, 0px) * -1));
+  }
+}
+
+h1 {
+  margin: 0;
+
+  width: 100%;
+
+  font-size: 21px;
+  line-height: 1.05;
+  font-weight: 700;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+p {
+  margin: 2px 0 0 0;
+
+  width: 100%;
+
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.82);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+.bottom-section {
+  margin-top: 6px;
+
+  width: 100%;
+}
+
+.time-row {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 3px;
+
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.progress-track {
+  width: 100%;
+  height: 10px;
+
+  border-radius: 999px;
+
+  background: rgba(0, 0, 0, 0.28);
+
+  overflow: hidden;
+}
+
+#progress-fill {
+  width: 0%;
+  height: 100%;
+
+  border-radius: 999px;
+
+  background: #d18bff;
+
+  transition: width 0.8s linear, background 0.35s ease;
+}
+
+button {
+  margin-top: 9px;
+  align-self: flex-end;
+
+  border: none;
+  border-radius: 999px;
+  padding: 7px 12px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  background: white;
+  color: #222;
+
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+@media(prefers-reduced-motion:reduce){.scroll-text.scrolling{animation:none}.scroll-text{max-width:100%;overflow:hidden;text-overflow:ellipsis}.widget,#progress-fill{transition:none}}
+
+/* Strong contrast against a vivid purple streaming scene. */
+.widget{background:linear-gradient(135deg,#181720,#08080e)!important;border:1px solid #e3d8ffb3;box-shadow:0 0 0 2px #08080ecc,0 8px 24px #0009}
+#cover{border:2px solid #f4ecff;box-sizing:border-box;box-shadow:0 0 0 2px #08080ecc,0 6px 16px #0008}
+.progress-track{background:#ffffff26}#progress-fill{background:#ffd479!important;box-shadow:0 0 9px #ffd47955}
+h1{color:#fff;text-shadow:0 1px 3px #0008}p{color:#e6e0ef}.time-row{color:#fff}
+
+/* Cover remains clean; contrast comes from the panel outline. */
+#cover{border:0;box-shadow:0 6px 14px #0006}
+
+/* Slightly stronger outline, with a rounded cover border drawn inside the image. */
+.widget{border:2px solid #eee7ffcc}
+#cover{border:0;border-radius:14px;box-shadow:0 0 0 2px #eee7ff,0 6px 14px #0006;clip-path:inset(-2px round 16px)}
+
+/* Keep outlines inside their rounded boxes: no dark gap behind an outer ring. */
+.widget{background-clip:border-box;box-shadow:0 8px 24px #0006}
+#cover{display:block;box-sizing:border-box;border:2px solid #eee7ff;border-radius:14px;background:#eee7ff;object-fit:cover;clip-path:none;box-shadow:0 6px 14px #0005}
+
+/* Borderless widget and artwork. */
+.widget{border:0;box-shadow:none}
+#cover{border:0;background:transparent;clip-path:none;box-shadow:none}
+#cover{object-position:center center}
